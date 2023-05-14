@@ -179,7 +179,7 @@ export default {
   padding: 8px 20px;
 }
 .slide-container{
-  h1, h5, p{
+  .slide-heading, .slide-subtitle, .slide-text{
   word-wrap: break-word;
   white-space: pre-wrap;
   line-height: 140%;
