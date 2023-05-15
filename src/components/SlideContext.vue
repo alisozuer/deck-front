@@ -6,7 +6,7 @@
     <div class="mt-4">
       <b-button variant="light" class="edit-btn" v-b-modal.modal-1>Edit <b-icon-pencil-square/></b-button>
     </div>
-<b-modal id="modal-1" title="Edit content">
+<b-modal id="modal-1" title="Edit content" hide-header-close>
   <div class="d-flex flex-column" style="gap:10px">
     <b-form-group
         label="Title:"

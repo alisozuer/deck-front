@@ -20,14 +20,9 @@
 import SlideContext from '../components/SlideContext.vue'
 
 export default {
-  name: 'HelloWorld',
+  name: 'HomePage',
   components: {
     SlideContext
-  },
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
   }
 }
 </script>
@@ -63,7 +58,10 @@ export default {
  }
 }
 @media only screen and (max-width: 992px) {
- .left-slide {
+  .right-slide{
+    max-height: 100vh;
+  }
+  .left-slide {
   .box-slide{
   padding: 15px;
  }
