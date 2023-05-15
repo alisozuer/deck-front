@@ -154,7 +154,6 @@ export default {
           el.style.fontSize = this.subtitleFontSize + 'px'
           height = el.clientHeight
         }
-        console.log(this.subtitleFontSizeIndex)
       }
     },
     text (newValue, oldValue) {
