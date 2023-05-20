@@ -155,6 +155,7 @@ export default {
           height = el.clientHeight
         }
       }
+      asdsad
     },
     text (newValue, oldValue) {
       const el = this.$refs.slideText
