@@ -1,0 +1,44 @@
+
+.right-slide{
+  position: relative;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  .slide-background{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: bottom;
+}
+.line{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 26px;
+  background: rgb(182,207,215);
+  background: linear-gradient(0deg, rgba(182,207,215,1) 50%, rgba(116,147,160,1) 50%);
+  height: 100%;
+  }
+}
+@media only screen and (max-width: 1199px) {
+ .right-slide .line{
+    width: 15px;
+  }
+ .right-slide .line{
+    width: 12px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .right-slide .line{
+    width: 12px;
+  }
+  .left-slide {
+    .box-slide {
+    transform-origin: top left;
+    width: 200%;
+    height: auto;
+    transform: scale(0.5);
+  }
+ }
+}

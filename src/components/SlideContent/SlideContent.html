@@ -1,0 +1,21 @@
+  <div class="left-slide">
+    <div classs="content-wrapper">
+      <div class="box-slide">
+      <div class="slide-container">
+        <h1 ref="slideHeading" class="slide-heading" :style="{ fontSize: headingFontSize + 'px' }">{{ heading }}</h1>
+        <h5 ref="slideSubtitle" class="slide-subtitle" :style="{ fontSize: subtitleFontSize + 'px' }">{{ subtitle }}</h5>
+        <p ref="slideText" class="slide-text" :style="{ fontSize: textFontSize + 'px' }">{{ text }}</p>
+        <slide-form
+          :heading="heading"
+          :subtitle="subtitle"
+          :text="text"
+          :error="error"
+          @update:heading="heading = $event"
+          @update:subtitle="subtitle = $event"
+          @update:text="text = $event"
+        ></slide-form>
+      </div>
+    </div>
+    </div>
+  </div>
+  
